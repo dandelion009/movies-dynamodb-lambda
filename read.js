@@ -1,5 +1,7 @@
 'use strict';
 
+//ListMovies/index.js (Runtime=Node.js 6.10, Hundler=index.readAllMovies)
+
 var AWS = require('aws-sdk'),
 	documentClient = new AWS.DynamoDB.DocumentClient(); 
 
